@@ -1,0 +1,6 @@
+#topnav {
+	background-color: #ffd6d6;
+}
+#navbuttons:hover {
+	border-bottom: 1px solid #000;
+}
