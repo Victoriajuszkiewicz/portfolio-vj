@@ -1,0 +1,16 @@
+.mainhero {
+	height: 700px;
+	background-color: #ffd6d6;
+}
+.intromain {
+	font-family: "Poppins", sans-serif;
+	font-size: 80px;
+	background: #ff3870;
+	background: linear-gradient(to right, #ff3870 25%, #c300c3 100%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+.secondmaintext {
+	font-family: "Poppins", sans-serif;
+	font-size: 48px;
+}
