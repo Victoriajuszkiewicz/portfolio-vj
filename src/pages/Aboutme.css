@@ -1,0 +1,11 @@
+.aboutmesection {
+	height: 600px;
+	display: grid;
+	align-items: start;
+}
+#aboutmetext {
+	text-align: left;
+}
+#thewholerow {
+	margin-top: 50px;
+}
