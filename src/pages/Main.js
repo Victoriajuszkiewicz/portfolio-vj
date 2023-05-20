@@ -1,26 +1,48 @@
 import React from "react";
 import "./Main.css";
+import Typed from "react-typed";
 
 const Main = () => {
 	return (
 		<div>
 			<div className="mainhero">
-				<h1 className="intromain">Hi, I'm Victoria</h1>
-				<div>
-					<h2 className="secondmaintext">I'm a</h2>{" "}
-					<h2 className="secondmaintext">Front-end developer</h2>
+				<div className="allinfo">
+					<h1 className="intromain">Hi, I'm Victoria</h1>
+					<div>
+						<h2 className="secondmaintext">I'm a </h2>{" "}
+						<Typed
+							className="secondmaintext"
+							strings={[
+								" Front end developer",
+								" Full stack developer",
+								" Web designer",
+								" React developer",
+							]}
+							typeSpeed={40}
+							backSpeed={50}
+							loop
+						></Typed>
+					</div>
+					<div className="container">
+						<div className="row justify-content-md-center gap-1">
+							<div className="col-12 col-lg-2 mb-4">
+								<button type="button" className="btn" id="mainbuttons">
+									My projects
+								</button>
+							</div>
+							<div className="col-12 col-lg-2 mb-4">
+								<button type="button" className="btn " id="mainbuttons">
+									Download CV
+								</button>
+							</div>
+							<div className="col-12 col-lg-2 mb-4">
+								<button type="button" className="btn" id="contactmebtn">
+									Contact me
+								</button>
+							</div>
+						</div>
+					</div>
 				</div>
-			</div>
-			<div className="grouppbutton">
-				<button type="button" className="btn btn-success">
-					Success
-				</button>
-				<button type="button" className="btn btn-success">
-					Success
-				</button>
-				<button type="button" className="btn btn-success">
-					Success
-				</button>
 			</div>
 		</div>
 	);
