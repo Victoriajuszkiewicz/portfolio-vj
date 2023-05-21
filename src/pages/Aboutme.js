@@ -15,6 +15,9 @@ import typescript from "../icons/typescript.png";
 import spain from "../icons/spain.jpg";
 
 const Aboutme = () => {
+	const openInNewTab = (url) => {
+		window.open(url, "_blank", "noreferrer");
+	};
 	return (
 		<div id="Aboutme">
 			<div className="aboutmesection">
@@ -24,15 +27,18 @@ const Aboutme = () => {
 							<h2>About me</h2>
 							<p>
 								Front-End web developer with 5 years of social media manager
-								experience. Combining my technical and social media skills to
-								build tech solutions that have a real positive impact on the
-								user.🐱‍💻
+								experience.
+								<br />
+								Combining my technical and social media skills to build tech
+								solutions that have a{" "}
+								<strong>real positive impact on the user.</strong>🐱‍💻
 								<br />
 								<br />
 								Being a freelancer taught me to manage my workdays and
-								prioritise my tasks to meet deadlines.Being on my own, I had to
-								constantly learn and expand my knowledge in many different
-								areas: content creation, influencer marketing, problem-solving,
+								prioritise my tasks to meet deadlines. Being on my own, I had to
+								<strong> constantly learn</strong> and expand my knowledge in
+								many different areas: content creation, influencer marketing,{" "}
+								<strong>problem-solving,</strong>
 								and client relations.With these skills, I created viral content
 								that reached up to 1M views for my clients.
 								<br />
@@ -40,48 +46,85 @@ const Aboutme = () => {
 								The Social media manager role allowed me to travel and learn
 								about different countries and cultures which transformed in a
 								need of being part of a diverse team - with different
-								perspectives and new approaches to create better solutions.My
-								passion for learning and problem-solving has led me to
-								transition into tech where I am constantly faced with new
-								challenges and opportunities.
+								perspectives and new approaches to{" "}
+								<strong>create better solutions.</strong> My passion for
+								learning and problem-solving has led me to
+								<strong> transition into tech</strong> where I am constantly
+								faced with new challenges and opportunities.
 							</p>
-							<p>Check Me Out On </p>
-							<img src={github} alt="this is github portfolio icon" />
-							<img src={linkedin} alt="this is linkedin icon" />
-							<img
-								src={dribble}
-								style={{ width: 40 }}
-								alt="this is dribble potfolio icon"
-							/>
+							<div class="d-flex flex-row bd-highlight mb-3">
+								<div className="p-2 bd-highlight">
+									<p>
+										<strong>Check Me Out On</strong>{" "}
+									</p>
+								</div>
+								<img
+									id="icongraphic"
+									src={github}
+									style={{ width: 40, height: 50, paddingTop: 7, margin: 0 }}
+									alt="this is github portfolio icon"
+									role="link"
+									onClick={() =>
+										openInNewTab("https://github.com/Victoriajuszkiewicz")
+									}
+								/>
+								<div className="p-2 bd-highlight">
+									<img
+										id="icongraphic"
+										src={linkedin}
+										href="https://github.com/Victoriajuszkiewicz"
+										style={{ width: 40, paddingRight: 5 }}
+										alt="this is linkedin icon"
+										role="link"
+										onClick={() =>
+											openInNewTab(
+												"https://www.linkedin.com/in/victoria-juszkiewicz-webdev/"
+											)
+										}
+									/>
+									<img
+										id="icongraphic"
+										src={dribble}
+										style={{ width: 40 }}
+										alt="this is dribble potfolio icon"
+										role="link"
+										onClick={() =>
+											openInNewTab("https://dribbble.com/victoria_juszkiewicz")
+										}
+									/>
+								</div>
+							</div>
 						</div>
 
-						<div className="col">
+						<div className="col" id="imagecolumn">
 							<img
 								src={profile}
-								style={{ width: 400 }}
+								style={{ width: 500 }}
 								alt="this is a profile picture of web developer Victoria"
 							/>
 						</div>
 					</div>
-					<div>
-						<h2>My Tech stack</h2>
-						<p>
-							Using a combination of cutting-edge technologies and reliable
-							open-source software I build user-focused, performant apps and
-							websites for smartphones, tablets, and desktops.
-						</p>
-						<img src={js} style={{ width: 40 }} alt="js" />
-						<img src={html} style={{ width: 40 }} alt="html" />
-						<img src={css} style={{ width: 40 }} alt="css" />
-						<img src={visual} style={{ width: 40 }} alt="visual" />
-						<img src={bootstrap} style={{ width: 40 }} alt="bootstrap" />
-						<img src={react} style={{ width: 40 }} alt="react" />
-						<img src={vue} style={{ width: 40 }} alt="vue" />
-					</div>
-					<div>
-						<h2>Learning</h2>
-						<img src={spain} style={{ width: 40 }} alt="spain " />
-						<img src={typescript} style={{ width: 40 }} alt="typescript" />
+					<div className="techstacktext">
+						<div className="container" id="techstack">
+							<h2>My Tech stack</h2>
+							<p>
+								Using a combination of cutting-edge technologies and reliable
+								open-source software I build user-focused, performant apps and
+								websites for smartphones, tablets, and desktops.
+							</p>
+							<img src={js} style={{ width: 40 }} alt="js" />
+							<img src={html} style={{ width: 40 }} alt="html" />
+							<img src={css} style={{ width: 40 }} alt="css" />
+							<img src={visual} style={{ width: 40 }} alt="visual" />
+							<img src={bootstrap} style={{ width: 40 }} alt="bootstrap" />
+							<img src={react} style={{ width: 40 }} alt="react" />
+							<img src={vue} style={{ width: 40 }} alt="vue" />
+						</div>
+						<div className="container" id="techstack">
+							<h2>Learning</h2>
+							<img src={spain} style={{ width: 40 }} alt="spain " />
+							<img src={typescript} style={{ width: 40 }} alt="typescript" />
+						</div>
 					</div>
 				</div>
 			</div>

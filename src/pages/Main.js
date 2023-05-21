@@ -72,6 +72,7 @@ const Main = () => {
 				<Aboutme />
 				<Projects />
 				<Reviews />
+				<Contact />
 			</div>
 		</div>
 	);

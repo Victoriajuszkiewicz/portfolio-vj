@@ -48,6 +48,7 @@ const NavBar = () => {
 
 						<li>
 							<Link
+								className="dropdown-item"
 								to="Projects"
 								spy={true}
 								smooth={true}
