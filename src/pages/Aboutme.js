@@ -16,7 +16,7 @@ import spain from "../icons/spain.jpg";
 
 const Aboutme = () => {
 	return (
-		<div>
+		<div id="Aboutme">
 			<div className="aboutmesection">
 				<div className="container">
 					<div className="row align-items-start" id="thewholerow">
@@ -43,10 +43,7 @@ const Aboutme = () => {
 								perspectives and new approaches to create better solutions.My
 								passion for learning and problem-solving has led me to
 								transition into tech where I am constantly faced with new
-								challenges and opportunities to grow my skill set.I am tech
-								savvy, love using tech solutions for many day-to-day problems
-								and would love to contribute to building such products that make
-								people's day-to-day better.
+								challenges and opportunities.
 							</p>
 							<p>Check Me Out On </p>
 							<img src={github} alt="this is github portfolio icon" />
@@ -61,7 +58,7 @@ const Aboutme = () => {
 						<div className="col">
 							<img
 								src={profile}
-								style={{ width: 500 }}
+								style={{ width: 400 }}
 								alt="this is a profile picture of web developer Victoria"
 							/>
 						</div>

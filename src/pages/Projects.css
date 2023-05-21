@@ -1,0 +1,20 @@
+.Projectsmain {
+	/* height: 900px; */
+	background-color: #dbeafe;
+}
+#codebtn {
+	background-image: linear-gradient(
+		to right,
+
+		#ff1f8e 51%,
+		#ffbd84 100%
+	);
+	border-radius: 100px;
+	border: none;
+	color: white;
+	padding: 10px 0px 10px 0px;
+	min-width: 100px;
+}
+#projectstext {
+	padding-top: 20px;
+}

@@ -1,6 +1,15 @@
 import React from "react";
 import "./NavBar.css";
 import moon from "../icons/moon.png";
+import {
+	Link,
+	Button,
+	Element,
+	Events,
+	animateScroll as scroll,
+	scrollSpy,
+	scroller,
+} from "react-scroll";
 
 const NavBar = () => {
 	return (
@@ -21,19 +30,32 @@ const NavBar = () => {
 					</button>
 					<ul className="dropdown-menu" aria-labelledby="dropdownMenuButton">
 						<li>
-							<a className="dropdown-item" href="#">
-								Home
-							</a>
+							<a className="dropdown-item">Home</a>
 						</li>
+
 						<li>
-							<a className="dropdown-item" href="#">
+							<Link
+								className="dropdown-item"
+								to="Aboutme"
+								spy={true}
+								smooth={true}
+								// offset={50}
+								duration={500}
+							>
 								About
-							</a>
+							</Link>
 						</li>
+
 						<li>
-							<a className="dropdown-item" href="#">
+							<Link
+								to="Projects"
+								spy={true}
+								smooth={true}
+								// offset={50}
+								duration={500}
+							>
 								Projects
-							</a>
+							</Link>
 						</li>
 						<li>
 							<a className="dropdown-item" href="#">
@@ -51,18 +73,50 @@ const NavBar = () => {
 
 				<div className="collapse navbar-collapse" id="navbarNavAltMarkup">
 					<div className="navbar-nav ms-auto">
-						<a className="nav-item nav-link active " id="navbuttons" href="#">
-							Home <span className="sr-only"></span>
-						</a>
-						<a className="nav-item nav-link" id="navbuttons" href="#">
+						<Link
+							className="nav-item nav-link"
+							id="navbuttons"
+							to="Main"
+							spy={true}
+							smooth={true}
+							offset={50}
+							duration={500}
+						>
+							Home
+						</Link>
+						<Link
+							className="nav-item nav-link"
+							id="navbuttons"
+							to="Aboutme"
+							spy={true}
+							smooth={true}
+							offset={50}
+							duration={500}
+						>
 							About
-						</a>
-						<a className="nav-item nav-link" id="navbuttons" href="#">
+						</Link>
+						<Link
+							className="nav-item nav-link"
+							id="navbuttons"
+							to="Projects"
+							spy={true}
+							smooth={true}
+							offset={50}
+							duration={500}
+						>
 							Projects
-						</a>
-						<a className="nav-item nav-link " id="navbuttons" href="#">
+						</Link>
+						<Link
+							className="nav-item nav-link"
+							id="navbuttons"
+							to="Contact"
+							spy={true}
+							smooth={true}
+							offset={50}
+							duration={500}
+						>
 							Contact
-						</a>
+						</Link>
 						<a className="nav-item nav-link " id="navbuttons" href="#">
 							CV
 						</a>
