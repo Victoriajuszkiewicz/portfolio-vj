@@ -9,15 +9,22 @@ import Main from "./pages/Main.js";
 import Projects from "./pages/Projects.js";
 import Footer from "./components/Footer.js";
 
+import FileSaver from "file-saver";
 function App() {
+	function saveFile() {
+		FileSaver.saveAs(
+			process.env.PUBLIC_URL + "/resources/CV-Victoria-Juszkiewicz.pdf",
+			"Front end developer Victoria CV.pdf"
+		);
+	}
 	return (
 		<div className="App">
 			<Router>
 				<header>
-					<NavBar></NavBar>
+					<NavBar saveFile={saveFile}></NavBar>
 				</header>
 				<Routes>
-					<Route path="/" element={<Main />}></Route>
+					<Route path="/" element={<Main saveFile={saveFile} />}></Route>
 					<Route path="/aboutme" element={<Aboutme />}></Route>
 					<Route path="/contact" element={<Contact />}></Route>
 					<Route path="/projects" element={<Projects />}></Route>

@@ -1,21 +1,17 @@
 import React from "react";
 import "./NavBar.css";
 import moon from "../icons/moon.png";
-import {
-	Link,
-	Button,
-	Element,
-	Events,
-	animateScroll as scroll,
-	scrollSpy,
-	scroller,
-} from "react-scroll";
+import { Link, animateScroll as scroll } from "react-scroll";
+import { saveAs } from "file-saver";
+import FileSaver from "file-saver";
 
-const NavBar = () => {
+const NavBar = (props) => {
+	const { saveFile } = props;
+
 	return (
 		<div>
 			<nav
-				className="navbar navbar-expand-lg  navbar-expand-md navbar-light "
+				className="navbar fixed-top navbar-expand-lg  navbar-expand-md navbar-light "
 				id="topnav"
 			>
 				<div className="dropdown">
@@ -59,13 +55,20 @@ const NavBar = () => {
 							</Link>
 						</li>
 						<li>
-							<a className="dropdown-item" href="#">
+							<Link
+								className="dropdown-item"
+								to="Contact"
+								spy={true}
+								smooth={true}
+								// offset={50}
+								duration={500}
+							>
 								Contact
-							</a>
+							</Link>
 						</li>
 						<div className="dropdown-divider"></div>
 						<li>
-							<a className="dropdown-item" href="#">
+							<a className="dropdown-item" onClick={saveFile}>
 								CV
 							</a>
 						</li>
@@ -118,7 +121,11 @@ const NavBar = () => {
 						>
 							Contact
 						</Link>
-						<a className="nav-item nav-link " id="navbuttons" href="#">
+						<a
+							className="nav-item nav-link "
+							id="navbuttons"
+							onClick={saveFile}
+						>
 							CV
 						</a>
 

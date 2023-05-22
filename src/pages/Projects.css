@@ -14,7 +14,39 @@
 	color: white;
 	padding: 10px 0px 10px 0px;
 	min-width: 100px;
+	font-weight: 600;
+}
+#codebtn:hover {
+	cursor: pointer;
+	background-color: white;
+	background-image: none;
+	color: #ff1f8e;
+	font-weight: 600;
+	border: 2px solid #ff1f8e;
 }
 #projectstext {
 	padding-top: 20px;
+}
+#demobtn {
+	padding: 10px 0px 10px 0px;
+	min-width: 100px;
+	border-radius: 100px;
+	background-color: white;
+	color: #ff1f8e;
+	font-weight: 600;
+	border: 2px solid #ff1f8e;
+}
+#demobtn:hover {
+	background-image: linear-gradient(
+		to right,
+
+		#ffbd84 51%,
+		#ff1f8e 100%
+	);
+	border-radius: 100px;
+	border: none;
+	color: white;
+	padding: 10px 0px 10px 0px;
+	min-width: 100px;
+	font-weight: 600;
 }

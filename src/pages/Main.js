@@ -11,6 +11,7 @@ import {
 	scrollSpy,
 	scroller,
 } from "react-scroll";
+import FileSaver from "file-saver";
 
 import Aboutme from "./Aboutme.js";
 import Contact from "./Contact.js";
@@ -18,7 +19,9 @@ import Projects from "./Projects.js";
 import Reviews from "./Reviews.js";
 // import Footer from "./Footer.js";
 
-const Main = () => {
+const Main = (props) => {
+	const { saveFile } = props;
+
 	return (
 		<div id="Main">
 			<div className="mainhero">
@@ -55,14 +58,27 @@ const Main = () => {
 								</Link>
 							</div>
 							<div className="col-12 col-lg-2 mb-4">
-								<button type="button" className="btn " id="mainbuttons">
+								<button
+									type="button"
+									className="btn "
+									id="mainbuttons"
+									onClick={saveFile}
+								>
 									Download CV
 								</button>
 							</div>
 							<div className="col-12 col-lg-2 mb-4">
-								<button type="button" className="btn" id="contactmebtn">
-									Contact me
-								</button>
+								<Link
+									to="Contact"
+									spy={true}
+									smooth={true}
+									offset={50}
+									duration={500}
+								>
+									<button type="button" className="btn" id="contactmebtn">
+										Contact me
+									</button>
+								</Link>
 							</div>
 						</div>
 					</div>

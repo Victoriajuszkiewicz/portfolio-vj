@@ -52,6 +52,9 @@ const Projects = () => {
 								<a href="#" className="btn btn-primary" id="codebtn">
 									View code
 								</a>
+								<a href="#" className="btn btn-primary" id="demobtn">
+									View demo
+								</a>
 							</div>
 						</div>
 					</div>
