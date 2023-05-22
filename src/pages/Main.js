@@ -43,7 +43,7 @@ const Main = (props) => {
 						></Typed>
 					</div>
 					<div className="container">
-						<div className="row justify-content-md-center gap-1">
+						<div className="row justify-content-md-center">
 							<div className="col-12 col-lg-2 mb-4">
 								<Link
 									to="Projects"

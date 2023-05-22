@@ -29,7 +29,7 @@ const Projects = () => {
 			</div>
 			<div className="container">
 				<div className="row justify-content-center gy-3">
-					<div className="col-2 col-lg-6 d-flex  justify-content-center">
+					<div className="col-12 col-sm-6 col-md-6 col-lg-4 d-flex justify-content-center">
 						<div className="card" style={{ width: "30rem" }}>
 							<img className="card-img-top" src={foody} alt="Card image cap" />
 							<div className="card-body">
@@ -45,7 +45,7 @@ const Projects = () => {
 							</div>
 						</div>
 					</div>
-					<div className="col-2 col-lg-6  d-flex justify-content-center">
+					<div className="col-12 col-sm-6 col-md-6 col-lg-4 d-flex justify-content-center">
 						<div className="card h-100" style={{ width: "30rem" }}>
 							<img
 								className="card-img-top"
@@ -74,7 +74,7 @@ const Projects = () => {
 							</div>
 						</div>
 					</div>
-					<div className="col-2 col-lg-6  d-flex justify-content-center">
+					<div className="col-12 col-sm-6 col-md-6 col-lg-4 d-flex justify-content-center">
 						<div className="card h-100" style={{ width: "30rem" }}>
 							<img
 								className="card-img-top"
@@ -95,7 +95,7 @@ const Projects = () => {
 							</div>
 						</div>
 					</div>
-					<div className="col-2 col-lg-6  d-flex justify-content-center">
+					<div className="col-12 col-sm-6 col-md-6 col-lg-4 d-flex justify-content-center">
 						<div className="card h-100" style={{ width: "30rem" }}>
 							<img
 								className="card-img-top"
@@ -116,7 +116,7 @@ const Projects = () => {
 							</div>
 						</div>
 					</div>
-					<div className="col-2 col-lg-6 d-flex  justify-content-center">
+					<div className="col-12 col-sm-6 col-md-6 col-lg-4 d-flex justify-content-center">
 						<div className="card h-100" style={{ width: "30rem" }}>
 							<img
 								className="card-img-top"
@@ -143,7 +143,7 @@ const Projects = () => {
 				<h2 className="webdesigntext">Web design</h2>
 				<div className="container">
 					<div className="row justify-content-center gy-3">
-						<div className="col-2 col-lg-6 d-flex  justify-content-center">
+						<div className="col-12 col-sm-6 col-md-6 col-lg-4 d-flex justify-content-center">
 							<div className="card" style={{ width: "30rem" }}>
 								<img
 									className="card-img-top"
@@ -163,7 +163,7 @@ const Projects = () => {
 								</div>
 							</div>
 						</div>
-						<div className="col-2 col-lg-6 d-flex  justify-content-center">
+						<div className="col-12 col-sm-6 col-md-6 col-lg-4 d-flex justify-content-center">
 							<div className="card h-100" style={{ width: "30rem" }}>
 								<img
 									className="card-img-top"
