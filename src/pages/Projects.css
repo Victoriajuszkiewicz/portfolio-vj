@@ -50,3 +50,10 @@
 	min-width: 100px;
 	font-weight: 600;
 }
+#webdesigndiv {
+	padding: 15px 0px 40px 0px;
+	margin-top: 10px;
+}
+.webdesigntext {
+	padding-bottom: 30px;
+}
