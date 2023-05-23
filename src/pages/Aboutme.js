@@ -1,5 +1,6 @@
 import React from "react";
 import "./Aboutme.css";
+
 import profile from "../img/profile.jpg";
 import dribble from "../icons/dribble.png";
 import linkedin from "../icons/linkedin.png";
@@ -23,9 +24,9 @@ const Aboutme = () => {
 			<div className="aboutmesection">
 				<div className="container">
 					<div className="row align-items-start" id="thewholerow">
-						<div className="col" id="aboutmetext">
+						<div className="col-12 col-lg-5" id="aboutmetext">
 							<h2>About me</h2>
-							<p>
+							<p className="longtext">
 								Front-End web developer with 5 years of social media manager
 								experience.
 								<br />
@@ -96,10 +97,13 @@ const Aboutme = () => {
 							</div>
 						</div>
 
-						<div className="col" id="imagecolumn">
+						<div
+							className="col-12 col-lg-5 justify-content-center"
+							id="imagecolumn"
+						>
 							<img
 								src={profile}
-								style={{ width: 500 }}
+								className="profileimage"
 								alt="this is a profile picture of web developer Victoria"
 							/>
 						</div>

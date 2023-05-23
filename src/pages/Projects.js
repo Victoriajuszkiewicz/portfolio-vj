@@ -113,6 +113,14 @@ const Projects = () => {
 								>
 									View code
 								</a>
+								<a
+									href="https://main--bookish-shop.netlify.app/"
+									target="_blank"
+									className="btn btn-primary"
+									id="demobtn"
+								>
+									View live
+								</a>
 							</div>
 						</div>
 					</div>

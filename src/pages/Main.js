@@ -1,23 +1,13 @@
 import React from "react";
 import "./Main.css";
 import Typed from "react-typed";
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import {
-	Link,
-	Button,
-	Element,
-	Events,
-	animateScroll as scroll,
-	scrollSpy,
-	scroller,
-} from "react-scroll";
-import FileSaver from "file-saver";
+import { Link, animateScroll as scroll } from "react-scroll";
 
 import Aboutme from "./Aboutme.js";
 import Contact from "./Contact.js";
 import Projects from "./Projects.js";
 import Reviews from "./Reviews.js";
-// import Footer from "./Footer.js";
+import Footer from "../components/Footer.js";
 
 const Main = (props) => {
 	const { saveFile } = props;
@@ -43,8 +33,8 @@ const Main = (props) => {
 						></Typed>
 					</div>
 					<div className="container">
-						<div className="row justify-content-md-center">
-							<div className="col-12 col-lg-2 mb-4">
+						<div className="button-container d-flex  flex-wrap justify-content-center">
+							<div className="mb-4">
 								<Link
 									to="Projects"
 									spy={true}
@@ -57,17 +47,17 @@ const Main = (props) => {
 									</button>
 								</Link>
 							</div>
-							<div className="col-12 col-lg-2 mb-4">
+							<div className="mb-4">
 								<button
 									type="button"
-									className="btn "
+									className="btn"
 									id="mainbuttons"
 									onClick={saveFile}
 								>
 									Download CV
 								</button>
 							</div>
-							<div className="col-12 col-lg-2 mb-4">
+							<div className="mb-4">
 								<Link
 									to="Contact"
 									spy={true}
@@ -89,6 +79,7 @@ const Main = (props) => {
 				<Projects />
 				<Reviews />
 				<Contact />
+				<Footer />
 			</div>
 		</div>
 	);

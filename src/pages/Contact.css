@@ -2,4 +2,13 @@
 	margin: 40px 0px 40px 0px;
 	background-color: #ffd6d6;
 	height: 200px;
+
+	display: grid;
+	place-items: center;
+}
+#allcontact {
+	display: grid;
+	place-items: center;
+
+	width: 50%;
 }

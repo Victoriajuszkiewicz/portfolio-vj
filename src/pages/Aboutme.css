@@ -9,8 +9,7 @@
 #thewholerow {
 	margin-top: 30px;
 }
-#imagecolumn {
-}
+
 @keyframes hvr-buzz-out {
 	10% {
 		-webkit-transform: translateX(3px) rotate(2deg);
@@ -76,4 +75,25 @@
 }
 #techstack {
 	margin: 5px 5px 15px 0px;
+}
+.profileimage {
+	width: 500px;
+}
+@media screen and (max-width: 767px) {
+	#aboutmetext {
+		width: 100%;
+	}
+	.longtext {
+		inline-size: 250px;
+		overflow: hidden;
+	}
+	.profileimage {
+		width: 300px;
+		padding: 0px;
+		margin: 0px;
+	}
+	.techstack {
+		inline-size: 250px;
+		overflow: hidden;
+	}
 }
