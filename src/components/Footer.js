@@ -1,4 +1,6 @@
 import React from "react";
+import "./Footer.css";
+
 import dribble from "../icons/dribble.png";
 import linkedin from "../icons/linkedin.png";
 import github from "../icons/github.png";
@@ -11,10 +13,10 @@ const Footer = () => {
 
 	return (
 		<div>
-			<footer className="text-center text-lg-start bg-light text-muted">
-				<div className="container">
+			<footer className="text-center text-lg-start  text-muted" id="footermain">
+				<div className="container" id="footercontainer">
 					<section className="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
-						<div className="me-5 d-none d-lg-block">
+						<div className="me-5 d-lg-block">
 							<span>Get connected on socials:</span>
 						</div>
 

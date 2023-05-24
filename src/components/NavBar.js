@@ -1,12 +1,11 @@
 import React from "react";
 import "./NavBar.css";
 import moon from "../icons/moon.png";
+import sun from "../icons/sun.png";
 import { Link, animateScroll as scroll } from "react-scroll";
-import { saveAs } from "file-saver";
-import FileSaver from "file-saver";
 
 const NavBar = (props) => {
-	const { saveFile } = props;
+	const { saveFile, toggleTheme, theme } = props;
 
 	return (
 		<div>
@@ -129,8 +128,22 @@ const NavBar = (props) => {
 							CV
 						</a>
 
-						<a className="nav-item nav-link " href="#">
-							<img src={moon} alt="icon of a moon" style={{ width: 30 }} />
+						<a className="nav-item nav-link ">
+							{theme === "light" ? (
+								<img
+									src={moon}
+									alt="icon of a moon"
+									style={{ width: 30 }}
+									onClick={toggleTheme}
+								/>
+							) : (
+								<img
+									src={sun}
+									alt="icon of a sun"
+									style={{ width: 30 }}
+									onClick={toggleTheme}
+								/>
+							)}
 						</a>
 					</div>
 				</div>

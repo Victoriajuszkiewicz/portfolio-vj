@@ -1,13 +1,20 @@
 import React from "react";
 import "./Contact.css";
+import Typed from "react-typed";
 
 const Contact = () => {
 	return (
 		<div id="Contact" className="contactmain">
 			<div className="container" id="allcontact">
-				<h2>Do you have any questions?</h2>
+				<Typed
+					className="questiontext"
+					strings={["Do you have any questions?"]}
+					typeSpeed={40}
+					backSpeed={50}
+					loop
+				></Typed>
 				<h3>Reach out!</h3>
-				<p>
+				<p className="sendmedm">
 					Send me a message on{" "}
 					<a href="https://www.linkedin.com/in/victoria-juszkiewicz-webdev/">
 						Linkedin{" "}

@@ -57,3 +57,12 @@
 .webdesigntext {
 	padding-bottom: 30px;
 }
+
+@media screen and (max-width: 767px) {
+	.webdesigntext {
+		padding: 15px;
+	}
+	#maincontainerprokects {
+		margin: 0px 10px 0px 10px;
+	}
+}

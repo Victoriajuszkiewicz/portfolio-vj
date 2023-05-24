@@ -28,7 +28,10 @@ const Projects = () => {
 				</p>
 			</div>
 			<div className="container">
-				<div className="row justify-content-center gy-3">
+				<div
+					className="row justify-content-center gy-3"
+					id="maincontainerprokects"
+				>
 					<div className="col-12 col-sm-6 col-md-6 col-lg-4 d-flex justify-content-center">
 						<div className="card" style={{ width: "30rem" }}>
 							<img className="card-img-top" src={foody} alt="Card image cap" />
@@ -150,7 +153,10 @@ const Projects = () => {
 			<div className="container" id="webdesigndiv">
 				<h2 className="webdesigntext">Web design</h2>
 				<div className="container">
-					<div className="row justify-content-center gy-3">
+					<div
+						className="row justify-content-center gy-3"
+						id="maincontainerprokects"
+					>
 						<div className="col-12 col-sm-6 col-md-6 col-lg-4 d-flex justify-content-center">
 							<div className="card" style={{ width: "30rem" }}>
 								<img

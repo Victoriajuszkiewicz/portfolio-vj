@@ -10,5 +10,23 @@
 	display: grid;
 	place-items: center;
 
-	width: 50%;
+	margin: 0 auto;
+}
+.questiontext {
+	font-size: 34px;
+	font-weight: 700;
+}
+
+@media screen and (max-width: 767px) {
+	.questiontext {
+		font-size: 24px;
+		font-weight: 700;
+	}
+	.sendmedm {
+		display: grid;
+		place-items: center;
+
+		margin: 0 auto;
+		padding: 15px;
+	}
 }
