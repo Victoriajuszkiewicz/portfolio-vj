@@ -18,12 +18,13 @@ const CardProject = () => {
 				>
 					<div className="col-12 col-sm-6 col-md-6 col-lg-4 d-flex justify-content-center">
 						<div className="card" style={{ width: "30rem" }}>
-							<img className="card-img-top" src={foody} alt="Card image cap" />
+							<img className="card-img-top" src={foody} alt="Card cap" />
 							<div className="card-body">
 								<h5 className="card-title">Recipe app- FOODY</h5>
 								<a
 									href="https://github.com/Victoriajuszkiewicz/FOODY-app-Spoonacular-API-"
 									target="_blank"
+									rel="noreferrer"
 									className="btn btn-primary"
 									id="codebtn"
 								>
@@ -38,13 +39,14 @@ const CardProject = () => {
 								className="card-img-top"
 								src={weather}
 								style={{ height: 200 }}
-								alt="Card image cap"
+								alt="Card cap"
 							/>
 							<div className="card-body">
 								<h5 className="card-title">Weather App</h5>
 								<a
 									href="https://github.com/Victoriajuszkiewicz/weather-app-Openweather-API-"
 									target="_blank"
+									rel="noreferrer"
 									className="btn btn-primary"
 									id="codebtn"
 								>
@@ -53,6 +55,7 @@ const CardProject = () => {
 								<a
 									href="https://main--weather-app-victoria.netlify.app/"
 									target="_blank"
+									rel="noreferrer"
 									className="btn btn-primary"
 									id="demobtn"
 								>
@@ -67,13 +70,14 @@ const CardProject = () => {
 								className="card-img-top"
 								src={cinemaholics}
 								style={{ height: 200 }}
-								alt="Card image cap"
+								alt="Card  cap"
 							/>
 							<div className="card-body">
 								<h5 className="card-title">Netflix clone</h5>
 								<a
 									href="https://github.com/Victoriajuszkiewicz/Cinemaholics-TMDB-API-"
 									target="_blank"
+									rel="noreferrer"
 									className="btn btn-primary"
 									id="codebtn"
 								>
@@ -88,13 +92,14 @@ const CardProject = () => {
 								className="card-img-top"
 								src={bookish}
 								style={{ height: 200 }}
-								alt="Card image cap"
+								alt="Card project by victoria juszkiewicz cap"
 							/>
 							<div className="card-body">
 								<h5 className="card-title">Book store</h5>
 								<a
 									href="https://github.com/Victoriajuszkiewicz/shopping-cart-js"
 									target="_blank"
+									rel="noreferrer"
 									className="btn btn-primary"
 									id="codebtn"
 								>
@@ -103,6 +108,7 @@ const CardProject = () => {
 								<a
 									href="https://main--bookish-shop.netlify.app/"
 									target="_blank"
+									rel="noreferrer"
 									className="btn btn-primary"
 									id="demobtn"
 								>
@@ -117,13 +123,14 @@ const CardProject = () => {
 								className="card-img-top"
 								src={petapp}
 								style={{ height: 200 }}
-								alt="Card image cap"
+								alt="Card project by victoria juszkiewicz cap"
 							/>
 							<div className="card-body">
 								<h5 className="card-title">Petapp</h5>
 								<a
 									href="https://github.com/Victoriajuszkiewicz/Petapp-Petfinder-API"
 									target="_blank"
+									rel="noreferrer"
 									className="btn btn-primary"
 									id="codebtn"
 								>
@@ -132,6 +139,7 @@ const CardProject = () => {
 								<a
 									href="https://main--pet-app-project.netlify.app//"
 									target="_blank"
+									rel="noreferrer"
 									className="btn btn-primary"
 									id="demobtn"
 								>
@@ -154,13 +162,14 @@ const CardProject = () => {
 								<img
 									className="card-img-top"
 									src={wellness}
-									alt="Card image cap"
+									alt="Card project by victoria juszkiewicz cap"
 								/>
 								<div className="card-body">
 									<h5 className="card-title">Wellness coach </h5>
 									<a
 										href="https://dribbble.com/shots/21444055-Wellness-coach-website-design"
 										target="_blank"
+										rel="noreferrer"
 										className="btn btn-primary"
 										id="codebtn"
 									>
@@ -174,13 +183,14 @@ const CardProject = () => {
 								<img
 									className="card-img-top"
 									src={hairdresser}
-									alt="Card image cap"
+									alt="Card project by victoria juszkiewicz cap"
 								/>
 								<div className="card-body">
 									<h5 className="card-title">Hairdresser page</h5>
 									<a
 										href="https://dribbble.com/shots/21465230-Hair-salon-hairdresser-website"
 										target="_blank"
+										rel="noreferrer"
 										className="btn btn-primary"
 										id="codebtn"
 									>
