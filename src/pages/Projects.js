@@ -9,16 +9,14 @@ const Projects = () => {
 			<div className="container" id="projectstext">
 				<h2>Cool stuf I've built</h2>
 				<p className="webdesigntext">
-					Here's a glimpse of some of the websites I've created with passion and
-					precision.
+					Check out some of the websites I've crafted with love and attention to
+					detail!
 					<br />
-					I have used a variety of technologies to build these websites
-					including JavaScript, HTML and CSS.
+					I've utilized various technologies like JavaScript, HTML, and CSS,
+					along with frameworks and libraries such as React, Bootstrap, and MUI.
 					<br />
-					I have also used a variety of frameworks and libraries including
-					React, Bootstrap and MUI.
-					<br />
-					Allow me to weave my magic and create a digital masterpiece for you.
+					Let me put my skills to work and design a stunning website just for
+					you!
 				</p>
 			</div>
 			<Card></Card>
