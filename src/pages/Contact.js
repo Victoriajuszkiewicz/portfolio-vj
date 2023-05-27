@@ -1,18 +1,30 @@
 import React from "react";
 import "./Contact.css";
-import Typed from "react-typed";
+import TypeIt from "typeit-react";
 
 const Contact = () => {
 	return (
 		<div id="Contact" className="contactmain">
 			<div className="container" id="allcontact">
-				<Typed
+				<TypeIt
+					className="questiontext"
+					options={{
+						loop: true,
+						waitUntilVisible: true,
+					}}
+					getBeforeInit={(instance) => {
+						instance.type("Do you have any questions?").pause(1000).delete();
+
+						return instance;
+					}}
+				/>
+				{/* <Typed
 					className="questiontext"
 					strings={["Do you have any questions?"]}
 					typeSpeed={40}
 					backSpeed={50}
 					loop
-				></Typed>
+				></Typed> */}
 				<h3>Reach out!</h3>
 				<p className="sendmedm">
 					Send me a message on{" "}
