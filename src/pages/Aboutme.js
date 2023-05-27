@@ -13,7 +13,7 @@ import vue from "../icons/vuejs.png";
 import visual from "../icons/visual.png";
 import react from "../icons/react.png";
 import typescript from "../icons/typescript.png";
-import spainIcon from "../icons/spain.jpg";
+import spainIcon from "../icons/spain.png";
 
 const Aboutme = () => {
 	const openInNewTab = (url) => {
