@@ -13,7 +13,7 @@ import vue from "../icons/vuejs.png";
 import visual from "../icons/visual.png";
 import react from "../icons/react.png";
 import typescript from "../icons/typescript.png";
-import spain from "../icons/spain.jpg";
+import spainIcon from "../icons/spain.jpg";
 
 const Aboutme = () => {
 	const openInNewTab = (url) => {
@@ -126,7 +126,11 @@ const Aboutme = () => {
 						</div>
 						<div className="container" id="techstack">
 							<h2>Learning</h2>
-							<img src={spain} style={{ width: 40 }} alt="spain " />
+							<img
+								src={spainIcon}
+								style={{ width: 40 }}
+								alt="spain icon learning "
+							/>
 							<img src={typescript} style={{ width: 40 }} alt="typescript" />
 						</div>
 					</div>
