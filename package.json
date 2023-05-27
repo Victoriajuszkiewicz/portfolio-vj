@@ -10,6 +10,7 @@
     "bootstrap-icons": "^1.10.5",
     "file-saver": "^2.0.5",
     "hover.css": "^2.3.2",
+    "postcss-selector-parser": "^6.0.13",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-multi-carousel": "^2.8.3",

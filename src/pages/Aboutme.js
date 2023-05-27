@@ -104,7 +104,7 @@ const Aboutme = () => {
 							<img
 								src={profile}
 								className="profileimage"
-								alt="this is a profile picture of web developer Victoria"
+								alt="this is a profile  of web developer Victoria"
 							/>
 						</div>
 					</div>

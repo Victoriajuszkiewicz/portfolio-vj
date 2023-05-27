@@ -5,7 +5,7 @@ import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 
 // Pictures for cards
-import kelly from "../img/kelly.jpeg";
+// import kelly from "../img/kelly.jpeg";
 import Natalia from "../img/Natalia.jpeg";
 import Michelle from "../img/Michelle.jpg";
 
@@ -48,7 +48,7 @@ const Reviews = () => {
 							<img
 								className="card-img-top"
 								src={Natalia}
-								alt="Card image cap"
+								alt="Card  cap"
 								id="reviewimg"
 							/>
 							<div className="card-body">
@@ -74,7 +74,7 @@ const Reviews = () => {
 							<img
 								className="card-img-top"
 								src={Michelle}
-								alt="Card image cap"
+								alt="Card review cap"
 								id="reviewimg"
 							/>
 							<div className="card-body">
@@ -98,7 +98,7 @@ const Reviews = () => {
 							<img
 								className="card-img-top"
 								src={Michelle}
-								alt="Card image cap"
+								alt="Card  cap"
 								id="reviewimg"
 							/>
 							<div className="card-body">
@@ -122,7 +122,7 @@ const Reviews = () => {
 							<img
 								className="card-img-top"
 								src={Michelle}
-								alt="Card image cap"
+								alt="Card  cap"
 								id="reviewimg"
 							/>
 							<div className="card-body">

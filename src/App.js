@@ -1,6 +1,6 @@
 import "./App.css";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import { useEffect, useState, createContext } from "react";
+import { useState, createContext } from "react";
 // Pages & components
 import NavBar from "./components/NavBar.js";
 import Aboutme from "./pages/Aboutme.js";

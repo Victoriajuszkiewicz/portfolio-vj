@@ -20,19 +20,18 @@ const Footer = () => {
 							<span>Get connected on socials:</span>
 						</div>
 
-						<div>
-							<a href="" className="me-4 text-reset">
-								<img
-									src={linkedin}
-									alt="linkedin icon click here"
-									onClick={() =>
-										openInNewTab(
-											"https://www.linkedin.com/in/victoria-juszkiewicz-webdev/"
-										)
-									}
-								/>
-							</a>
-							<a href="" className="me-4 text-reset">
+						<div className="me-4 text-reset">
+							<img
+								src={linkedin}
+								alt="linkedin icon click here"
+								onClick={() =>
+									openInNewTab(
+										"https://www.linkedin.com/in/victoria-juszkiewicz-webdev/"
+									)
+								}
+							/>
+
+							<div href="" className="me-4 text-reset">
 								<img
 									src={github}
 									alt="github  account click here"
@@ -40,8 +39,8 @@ const Footer = () => {
 										openInNewTab("https://github.com/Victoriajuszkiewicz")
 									}
 								/>
-							</a>
-							<a href="" className="me-4 text-reset">
+							</div>
+							<div className="me-4 text-reset">
 								<img
 									src={dribble}
 									alt="github  account click here"
@@ -50,8 +49,8 @@ const Footer = () => {
 										openInNewTab("https://dribbble.com/victoria_juszkiewicz")
 									}
 								/>
-							</a>
-							<a href="" className="me-4 text-reset">
+							</div>
+							<div className="me-4 text-reset">
 								<img
 									src={tiktok}
 									alt="tiktok  account click here"
@@ -60,11 +59,10 @@ const Footer = () => {
 										openInNewTab("https://www.tiktok.com/@girl_who_codes/")
 									}
 								/>
-							</a>
+							</div>
 						</div>
 						<div className="text-center p-4">
-							© 2023 Copyright:{" "}
-							<a className="text-reset fw-bold">Victoria Juszkiewicz</a>
+							© 2023 Copyright: Victoria Juszkiewicz
 						</div>
 					</section>
 				</div>

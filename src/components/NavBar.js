@@ -2,7 +2,7 @@ import React from "react";
 import "./NavBar.css";
 import moon from "../icons/moon.png";
 import sun from "../icons/sun.png";
-import { Link, animateScroll as scroll } from "react-scroll";
+import { Link } from "react-scroll";
 
 const NavBar = (props) => {
 	const { saveFile, toggleTheme, theme } = props;
@@ -24,9 +24,7 @@ const NavBar = (props) => {
 						<span className="navbar-toggler-icon"></span>
 					</button>
 					<ul className="dropdown-menu" aria-labelledby="dropdownMenuButton">
-						<li>
-							<a className="dropdown-item">Home</a>
-						</li>
+						<li className="dropdown-item">Home</li>
 
 						<li>
 							<Link
@@ -66,10 +64,8 @@ const NavBar = (props) => {
 							</Link>
 						</li>
 						<div className="dropdown-divider"></div>
-						<li>
-							<a className="dropdown-item" onClick={saveFile}>
-								CV
-							</a>
+						<li className="dropdown-item" onClick={saveFile}>
+							CV
 						</li>
 					</ul>
 				</div>
@@ -120,15 +116,15 @@ const NavBar = (props) => {
 						>
 							Contact
 						</Link>
-						<a
+						<div
 							className="nav-item nav-link "
 							id="navbuttons"
 							onClick={saveFile}
 						>
 							CV
-						</a>
+						</div>
 
-						<a className="nav-item nav-link ">
+						<div className="nav-item nav-link ">
 							{theme === "light" ? (
 								<img
 									src={moon}
@@ -144,7 +140,7 @@ const NavBar = (props) => {
 									onClick={toggleTheme}
 								/>
 							)}
-						</a>
+						</div>
 					</div>
 				</div>
 			</nav>

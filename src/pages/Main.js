@@ -1,7 +1,7 @@
 import React from "react";
 import "./Main.css";
 import Typed from "react-typed";
-import { Link, animateScroll as scroll } from "react-scroll";
+import { Link } from "react-scroll";
 
 import Aboutme from "./Aboutme.js";
 import Contact from "./Contact.js";
