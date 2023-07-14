@@ -5,9 +5,10 @@ import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 
 // Pictures for cards
-// import kelly from "../img/kelly.jpeg";
+import Kelly from "../img/kelly.jpeg";
 import Natalia from "../img/Natalia.jpeg";
 import Michelle from "../img/Michelle.jpg";
+import Sol from "../img/sol.jpeg";
 
 const Reviews = () => {
 	const responsive = {
@@ -73,22 +74,27 @@ const Reviews = () => {
 						<div className="card h-100" style={{ width: "20rem" }}>
 							<img
 								className="card-img-top"
-								src={Michelle}
+								src={Sol}
 								alt="Card review cap"
 								id="reviewimg"
 							/>
 							<div className="card-body">
-								<h5 className="mb-3">Michelle</h5>
-								<h6 className="text-primary mb-3">CEO</h6>
+								<h5 className="mb-3">Sol</h5>
+								<h6 className="text-primary mb-3">
+									Frontend developer | UX Content writer
+								</h6>
 								<i className="bi bi-star-fill"></i>
 								<p className="px-xl-3">
-									<i className="fas fa-quote-left pe-2"></i>"My E-commerce brand
-									has worked with Victoria for over a year now and I can
-									honestly say she has been the best addition to my team so far.
-									<br />
-									She works to her own initiative and needs little or not
-									direction as she is super creative.
-									<br />I would highly recommend Victoria."
+									<i className="fas fa-quote-left pe-2"></i>"I had the
+									opportunity to work with Victoria in the development of
+									Foody's App. Victoria is a creative person and a fast learner
+									who consistently brought fresh ideas to the team. She has an
+									eye for design and is very attentive to detail which makes her
+									deliver top-quality products. She has a great positive
+									attitude and shinny energy, she has excellent communication
+									skills, and is always available to help others. Overall, she
+									is an exceptional professional who would be an invaluable
+									asset to any team."
 								</p>
 							</div>
 						</div>
@@ -97,22 +103,21 @@ const Reviews = () => {
 						<div className="card h-100" style={{ width: "20rem" }}>
 							<img
 								className="card-img-top"
-								src={Michelle}
+								src={Kelly}
 								alt="Card  cap"
 								id="reviewimg"
 							/>
 							<div className="card-body">
-								<h5 className="mb-3">Michelle</h5>
-								<h6 className="text-primary mb-3">CEO</h6>
+								<h5 className="mb-3">Kelly</h5>
+								<h6 className="text-primary mb-3">Full-stack Developer</h6>
 								<i className="bi bi-star-fill"></i>
 								<p className="px-xl-3">
-									<i className="fas fa-quote-left pe-2"></i>"My E-commerce brand
-									has worked with Victoria for over a year now and I can
-									honestly say she has been the best addition to my team so far.
-									<br />
-									She works to her own initiative and needs little or not
-									direction as she is super creative.
-									<br />I would highly recommend Victoria."
+									<i className="fas fa-quote-left pe-2"></i>"I witness
+									Victoria’s transformation into becoming a full stack
+									developer. Always up to challenge the impossible, she has a
+									powerful team spirit, sense of organisation and unlimited
+									creativity. Without a doubt, Victoria will be an amazing
+									addition to your team"
 								</p>
 							</div>
 						</div>

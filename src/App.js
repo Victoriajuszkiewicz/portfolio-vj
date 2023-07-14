@@ -17,7 +17,7 @@ function App() {
 
 	function saveFile() {
 		FileSaver.saveAs(
-			process.env.PUBLIC_URL + "/resources/CV-Victoria-Juszkiewicz.pdf",
+			process.env.PUBLIC_URL + "/resources/CV-Victoria-Juszkiewicz-Front.pdf",
 			"Front end developer Victoria CV.pdf"
 		);
 	}
