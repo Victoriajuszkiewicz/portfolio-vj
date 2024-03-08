@@ -62,7 +62,7 @@ const Footer = () => {
 							</div>
 						</div>
 						<div className="text-center p-4">
-							© 2023 Copyright: Victoria Juszkiewicz
+							© 2024 Copyright: Victoria Juszkiewicz
 						</div>
 					</section>
 				</div>
