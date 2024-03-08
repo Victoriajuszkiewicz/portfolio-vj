@@ -7,6 +7,8 @@ import weather from "../img/weather.png";
 import petapp from "../img/petapp.png";
 import wellness from "../img/wellness.png";
 import hairdresser from "../img/hair.png";
+import portfolio from "../img/portfolio.png";
+import reqon from "../img/reqon-portfolio.png";
 
 const CardProject = () => {
 	return (
@@ -148,7 +150,55 @@ const CardProject = () => {
 							</div>
 						</div>
 					</div>
+
+					<div className="col-12 col-sm-6 col-md-6 col-lg-4 d-flex justify-content-center">
+						<div className="card h-100" style={{ width: "30rem" }}>
+							<img
+								className="card-img-top"
+								src={portfolio}
+								style={{ height: 200 }}
+								alt="Card project by victoria juszkiewicz cap"
+							/>
+							<div className="card-body">
+								<h5 className="card-title">Portfolio</h5>
+								<a
+									href="https://github.com/Victoriajuszkiewicz/portfolio-vj"
+									target="_blank"
+									rel="noreferrer"
+									className="btn btn-primary"
+									id="codebtn"
+								>
+									View code
+								</a>
+							
+							</div>
+						</div>
+					</div>
+					<div className="col-12 col-sm-6 col-md-6 col-lg-4 d-flex justify-content-center">
+						<div className="card h-100" style={{ width: "30rem" }}>
+							<img
+								className="card-img-top"
+								src={reqon}
+								style={{ height: 200 }}
+								alt="Card project by victoria juszkiewicz cap"
+							/>
+							<div className="card-body">
+								<h5 className="card-title">Reqon portfolio - client website</h5>
+								<a
+									href="https://reqon.netlify.app/"
+									target="_blank"
+									rel="noreferrer"
+									className="btn btn-primary"
+									id="demobtn"
+								>
+									View live
+								</a>
+							
+							</div>
+						</div>
+					</div>
 				</div>
+
 			</div>
 			<div className="container" id="webdesigndiv">
 				<h2 className="webdesigntext">Web design</h2>
