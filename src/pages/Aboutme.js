@@ -12,8 +12,11 @@ import bootstrap from "../icons/bootstrap.png";
 import vue from "../icons/vuejs.png";
 import visual from "../icons/visual.png";
 import react from "../icons/react.png";
-import typescript from "../icons/typescript.png";
+import node from "../icons/node.png";
 import spainIcon from "../icons/spain.png";
+import java from "../icons/java.png";
+import mysql from "../icons/mysql.png";
+
 
 const Aboutme = () => {
 	const openInNewTab = (url) => {
@@ -123,6 +126,8 @@ const Aboutme = () => {
 							<img src={bootstrap} style={{ width: 40 }} alt="bootstrap" />
 							<img src={react} style={{ width: 40 }} alt="react" />
 							<img src={vue} style={{ width: 40 }} alt="vue" />
+							<img src={node} style={{ width: 40 }} alt="node js" />
+							<img src={mysql} style={{ width: 40 }} alt="mysql" />
 						</div>
 						<div className="container" id="techstack">
 							<h2>Learning</h2>
@@ -131,7 +136,7 @@ const Aboutme = () => {
 								style={{ width: 40 }}
 								alt="spain icon learning "
 							/>
-							<img src={typescript} style={{ width: 40 }} alt="typescript" />
+							<img src={java} style={{ width: 80 }} alt="java logo" />
 						</div>
 					</div>
 				</div>

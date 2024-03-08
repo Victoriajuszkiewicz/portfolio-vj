@@ -32,8 +32,8 @@ const Contact = () => {
 						Linkedin{" "}
 					</a>
 					or you can email me at:{" "}
-					<a href="mailto:victoria.fullstackdeveloper@gmail.com">
-						victoria.fullstackdeveloper@gmail.com
+					<a href="mailto:victoria.webdev9@gmail.com">
+					victoria.webdev9@gmail.com
 					</a>
 				</p>
 			</div>
