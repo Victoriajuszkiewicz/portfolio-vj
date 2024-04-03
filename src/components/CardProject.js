@@ -9,6 +9,7 @@ import wellness from "../img/wellness.png";
 import hairdresser from "../img/hair.png";
 import portfolio from "../img/portfolio.png";
 import reqon from "../img/reqon-portfolio.png";
+import tech from "../img/tech-design.png";
 
 const CardProject = () => {
 	return (
@@ -239,6 +240,28 @@ const CardProject = () => {
 									<h5 className="card-title">Hairdresser page</h5>
 									<a
 										href="https://dribbble.com/shots/21465230-Hair-salon-hairdresser-website"
+										target="_blank"
+										rel="noreferrer"
+										className="btn btn-primary"
+										id="codebtn"
+									>
+										View design
+									</a>
+								</div>
+							</div>
+						</div>
+
+						<div className="col-12 col-sm-6 col-md-6 col-lg-4 d-flex justify-content-center">
+							<div className="card h-100" style={{ width: "30rem" }}>
+								<img
+									className="card-img-top"
+									src={tech}
+									alt="Card project by victoria juszkiewicz cap"
+								/>
+								<div className="card-body">
+									<h5 className="card-title">Technology blog</h5>
+									<a
+										href="https://dribbble.com/shots/23944948-Tech-blog-software-shop"
 										target="_blank"
 										rel="noreferrer"
 										className="btn btn-primary"
